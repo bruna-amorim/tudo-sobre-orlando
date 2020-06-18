@@ -34,11 +34,7 @@ npm install http-server -g
 http-server ./dist
 ```
 
-Instale o angular/cli: https://cli.angular.io/
-
-```bash
-abra o navegador em: http://localhost:4200/
-```
+Abra o navegador em: http://localhost:4200/
 
 ## Licenças
 
