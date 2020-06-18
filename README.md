@@ -30,6 +30,7 @@ ng serve
 2) Ou execute o conteúdo da pasta dist
 
 ```bash
+ng build --prod
 npm install http-server -g
 http-server ./dist
 ```
