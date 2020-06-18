@@ -1,0 +1,11 @@
+<div class="m-5 text-center">
+  <h1 class="text-info">Lista de Cupons</h1>
+  <hr>
+  <div class="container text-center">
+    <div class="row hidden md-up">
+      <div *ngFor="let cupom of cupons" class="col-md-4">
+        <app-cupom-card [cupom]="cupom"></app-cupom-card>
+      </div>
+    </div>
+  </div>
+</div>

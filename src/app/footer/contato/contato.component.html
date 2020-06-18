@@ -1,0 +1,49 @@
+<form class="m-5" [formGroup]="registerForm">
+  <h1 class="text-info">Dúvidas e Sugestões</h1>
+  <hr>
+  <fieldset>
+    <div class="form-group mt-3">
+      <label for="email">Endereço de E-mail</label>
+      <input type="email" [ngClass]="{'is-valid': !registerForm.get('email').errors && registerForm.get('email').touched, 
+        'is-invalid': registerForm.get('email').errors && registerForm.get('email').touched}" class="form-control"
+        id="email" formControlName="email" placeholder="Digite o seu e-mail">
+      <div class="valid-feedback">Tudo certo por aqui!</div>
+      <div class="invalid-feedback">Por favor, digite um e-mail válido!</div>
+      <small id="emailHelp" class="form-text text-muted">Nós não compartilhamos o seu e-mail.</small>
+    </div>
+    <div class="form-group mt-5">
+      <label for="mensagem">Mensagem</label>
+      <textarea [ngClass]="{'is-valid': !registerForm.get('mensagem').errors 
+      && registerForm.get('mensagem').touched, 'is-invalid': registerForm.get('mensagem').errors 
+      && registerForm.get('mensagem').touched}" class="form-control" id="mensagem" formControlName="mensagem" rows="3"
+        placeholder="Digite a sua mensagem"></textarea>
+      <div class="invalid-feedback">Por favor, digite sua mensagem com no mínimo 20 caracteres!</div>
+      <div class="valid-feedback">Tudo certo por aqui!</div>
+    </div>
+    <fieldset class="form-group mt-5">
+      <legend>Motivo</legend>
+      <div class="form-check">
+        <label class="form-check-label">
+          <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="option1"
+            checked="">
+          Reclamações e Sugestões
+        </label>
+      </div>
+      <div class="form-check">
+        <label class="form-check-label">
+          <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios2" value="option2">
+          Dúvidas
+        </label>
+      </div>
+      <div class="form-check">
+        <label class="form-check-label">
+          <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios3" value="option3"
+            disabled="">
+          Depoimento
+        </label>
+      </div>
+    </fieldset>
+    <button id="enviar" type="submit" class="btn btn-primary btn-success mt-3" data-dismiss="alert"
+      (click)="enviar()">Enviar</button>
+  </fieldset>
+</form>

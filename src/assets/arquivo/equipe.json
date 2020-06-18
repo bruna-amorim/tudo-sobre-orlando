@@ -1,0 +1,27 @@
+[
+  {
+    "emoji": "isabella.jpg",
+    "nome": "Isabella Amorim",
+    "funcao": "Gerente de Projeto"
+  },
+  {
+    "emoji": "bruna.jpg",
+    "nome": "Bruna Amorim",
+    "funcao": "Engenheira Front-end"
+  },
+  {
+    "emoji": "israel.jpg",
+    "nome": "Israel Amorim",
+    "funcao": "Desenvolvedor FullStack"
+  },
+  {
+    "emoji": "rodolfa.jpg",
+    "nome": "Jaine Oliveira",
+    "funcao": "Analista de Marketing"
+  },
+  {
+    "emoji": "joceli.jpg",
+    "nome": "Joceli Amorim",
+    "funcao": "Engenheira de Infraestrutura"
+  }
+]

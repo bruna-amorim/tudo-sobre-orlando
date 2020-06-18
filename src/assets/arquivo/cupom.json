@@ -1,0 +1,47 @@
+[
+  {
+    "loja": "Camila's Restaurant",
+    "descricao": "Restaurante Brasileiro",
+    "valor": "20% de desconto"
+  },
+  {
+    "loja": "Doletinha: Dólar Parcelado",
+    "descricao": "Casa de Câmbio",
+    "valor": "Dólar parcelado de modo simples"
+  },
+  {
+    "loja": "EasySim4U",
+    "descricao": "Chip de Celular",
+    "valor": "15% de desconto"
+  },
+  {
+    "loja": "UP Rent a Car",
+    "descricao": "Aluguel de Carro",
+    "valor": "25% de desconto"
+  },
+  {
+    "loja": "VMZ Viagens",
+    "descricao": "Desconto em Ingressos",
+    "valor": "5% de desconto"
+  },
+  {
+    "loja": "Mundo dos Vistos",
+    "descricao": "Vistos para qualquer destino",
+    "valor": "10% de desconto"
+  },  
+  {
+    "loja": "I-Drive 360",
+    "descricao": "Maior Roda-Gigante de Orlando",
+    "valor": "3ª pessoa grátis"
+  },
+  {
+    "loja": "Sawgrass Mills",
+    "descricao": "Outlet Sawgrass Mills",
+    "valor": "Ganhe um livro de descontos"
+  },
+  {
+    "loja": "Madame Tussauds Orlando",
+    "descricao": "Museu de Cera",
+    "valor": "3ª pessoa grátis"
+  }
+]

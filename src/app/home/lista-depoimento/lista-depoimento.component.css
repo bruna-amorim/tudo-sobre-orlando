@@ -1,0 +1,48 @@
+@media screen and (min-width: 320px) {
+  .bubble blockquote {
+    margin: 10px 10px 0;
+    background: linear-gradient(to bottom, #2d91c2 0%, #1e528e 100%);
+    padding: calc(1em + 1vw);
+    position: relative;
+    border: none;
+    border-radius: 8px;
+    font-size: calc(0.85em + 1vw);
+    color: white;
+  }
+  .bubble blockquote:before,
+  .bubble blockquote:after {
+    content: "\201C";
+    position: absolute;
+    font-size: 5vh;
+    padding: calc(0em + 0.9vw);
+    line-height: 1;
+    color: white;
+  }
+  .bubble blockquote:before {
+    top: 0;
+    left: 10px;
+  }
+  .bubble blockquote:after {
+    content: "\201D";
+    right: 10px;
+    bottom: -0.5em;
+  }
+  .bubble-div {
+    width: 0;
+    height: 0;
+    border-left: 0 solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #1e528e;
+    margin: 0 0 0 100px;
+    margin-bottom: 10px;
+  }
+  .bubble cite {
+    font-size: 1.25em;
+    color: #1e528e;
+  }
+
+  .imagem {
+    width: 100px;
+    border-radius: 50%;
+  }
+}

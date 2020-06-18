@@ -1,0 +1,18 @@
+<div class="modal-header">
+  <h5 class="modal-title" id="temperaturaLabel">Temperatura</h5>
+  <button type="button" class="close" (click)="ocultar()" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+<div class="modal-body">
+  <div class="modal-body">
+    <img src="{{iconeUrl}}" id="icone" width="60px">
+    <br />
+    <strong>ORLANDO</strong><br>
+    <span id="temperatura"> </span>{{temperatura?.Temperature?.Metric?.Value}} °C<br>
+    <span id="clima"> {{temperatura?.WeatherText}}</span>
+  </div>
+</div>
+<div class="modal-footer">
+  <button type="button" class="btn btn-secondary" (click)="ocultar()">Fechar</button>
+</div>

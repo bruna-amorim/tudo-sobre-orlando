@@ -1,0 +1,13 @@
+<div class="m-5">
+  <h1 class="mx-5 my-3 text-center text-info">Nossa equipe</h1>
+  <hr>
+  <div class="py5">
+    <div class="container text-center">
+      <div class="row hidden md-up">
+        <div *ngFor="let membro of equipe" class="col-md-3 mt-5">
+          <app-equipe-card [equipe]="membro"></app-equipe-card>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

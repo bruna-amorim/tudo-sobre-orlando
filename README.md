@@ -1,27 +1,45 @@
-# TudoSobreOrlando
+# Tudo sobre orlando. 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.7.
+Este site foi construído em angular 9 (@angular/cli) com o propósito de síntese geral da disciplina Fundamentos da Web do curso Tecnologia em Análise e Desenvolvimento de Sistema da Universidade Presbiteriana Machenzie.
 
-## Development server
+## Autores
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+* **Bruna de Oliveira Carlos Amorim** - *Trabalho inicial* - [TudoSobreOrlando](https://github.com/PurpleBooth)
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Instalação
 
-## Build
+Use o gerenciador de pacotes npm:  https://www.npmjs.com/get-npm.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+```bash
+npm install foobar
+```
 
-## Running unit tests
+Instale o angular/cli: https://cli.angular.io/
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```bash
+npm install -g @angular/cli
+```
 
-## Running end-to-end tests
+1) Execute o comando ng serve (dentro da pasta do projeto)
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+```bash
+ng serve
+```
 
-## Further help
+2) Ou execute o conteúdo da pasta dist
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+```bash
+npm install http-server -g
+http-server ./dist
+```
+
+Instale o angular/cli: https://cli.angular.io/
+
+```bash
+abra o navegador em: http://localhost:4200/
+```
+
+## Licenças
+
+Este site possui propósito de estudo, sem quaisquer fins comerciais.

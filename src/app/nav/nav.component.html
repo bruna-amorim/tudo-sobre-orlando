@@ -1,0 +1,47 @@
+<div class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-item" [routerLink]="['/']">
+    <img src="../../assets/logo.png" class="brand-imagem ml-5" />
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item ml-5">
+        <a class="nav-link lead" [routerLink]="['/galeria']">Galeria de Fotos</a>
+      </li>
+      <li class="nav-item dropdown ml-5">
+        <a class="nav-link dropdown-toggle lead" id="navbarDropdown" role="button" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
+          Informações Utéis
+        </a>
+        <div class="dropdown-menu col-xs-12" aria-labelledby="navbarDropdown">
+          <a class="nav-link disabled ml-3">PARQUES</a>
+          <div class="dropdown-divider"></div>
+          <a class="nav-link">
+            <button type="button" class="btn btn-link" data-toggle="modal" (click)="mostrarHorario()">
+              <i class="fas fa-clock"> Horário dos Parques</i>
+            </button>
+          </a>
+          <a class="nav-link">
+            <button type="button" class="btn btn-link" data-toggle="modal" (click)="mostrarLotacao()">
+              <i class="fas fa-bell"> Lotação</i>
+            </button>
+          </a>
+          <div class="dropdown-divider"></div>
+          <a class="nav-link">
+            <button type="button" class="btn btn-link" data-toggle="modal" (click)="mostrarTemperatura()">
+              <i class="fas fa-sun"> Temperatura</i>
+            </button>
+          </a>
+          <a class="nav-link">
+            <button type="button" class="btn btn-link" data-toggle="modal" (click)="mostrarDolar()">
+              <i class="fas fa-dollar-sign"> Dólar</i>
+            </button>
+          </a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
